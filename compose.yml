@@ -1,0 +1,13 @@
+version: '3.7'
+services:
+  web:
+    image: nginx-test-web
+    ports:
+      - "8080:80"
+    environment:
+      - "PORT=80"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.50'
+          memory: 256M
