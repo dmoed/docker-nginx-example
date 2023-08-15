@@ -13,6 +13,10 @@ docker-compose -f compose.yml --compatibility up
 
 ## Changelog
 
+### 0.1.1
+
+added .gitattributes
+
 ### 0.1.0
 
 initial commit
